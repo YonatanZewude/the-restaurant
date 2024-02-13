@@ -1,8 +1,7 @@
+import { Link } from "react-router-dom";
 import "../styles/main.scss";
 
-import { Link } from "react-router-dom";
-
-export const Nav = () => {
+export const Footer = () => {
     return (
         <nav>
             <ul>

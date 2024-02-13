@@ -1,8 +1,8 @@
 import "./App.scss";
-import { getRest } from "./api/getRest";
+//import { getRest } from "./api/getRest";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./Router";
-import { createBooking } from "./services/createBooking";
+//import { createBooking } from "./services/createBooking";
 import { getBooking } from "./services/getBooking";
 import { deleteBooking } from "./services/deleteBooking";
 function App() {
@@ -15,6 +15,7 @@ function App() {
     <>
       <RouterProvider router={router}></RouterProvider>;
     </>
+     
   );
 }
 

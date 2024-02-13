@@ -4,12 +4,14 @@ import { Landingpage } from "./pages/Landingpage";
 import { Bookingpage } from "./pages/Bookingpage";
 import { Checkoutpage } from "./pages/Checkoutpage";
 import Contact from "./components/Contact";
+import { Nav } from "./components/nav";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
     children: [
+    
       {
         index: true,
         element: <Landingpage />,
@@ -25,7 +27,7 @@ export const router = createBrowserRouter([
       {
       path: "/contact",
       element: <Contact />,
-    },
+      },
     ],
   },
 ]);

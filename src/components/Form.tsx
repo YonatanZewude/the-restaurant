@@ -1,4 +1,4 @@
-import "../styles/contact.scss";
+import "../styles/main.scss";
 export const Form = () => {
     return (
         <>
